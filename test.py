@@ -23,7 +23,7 @@ def videopreds():
     lbl = ['Close', 'Open']
 
     #app = Flask(__name__)
-    model = load_model('models/cnncat2.h5')
+    model = load_model('cnncat2.h5')
     path = os.getcwd()
     cap = cv2.VideoCapture(0)
     font = cv2.FONT_HERSHEY_COMPLEX_SMALL
